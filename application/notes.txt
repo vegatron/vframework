@@ -1,0 +1,29 @@
+Max  tm_categories.code length is 32 cuz mysql won't set it as unique index if its more than this
+
+Default:
+Default welcome msg: id=1
+Default service: id=1
+Default cat: id=1
+
+
+There must be a default user with an ID of 1
+
+--
+Because of the use of Foriegn keys in the  DB, the DB engine MUST BE INNO DB!!
+--------
+The category name must be <= 32 chars
+---------------
+In the far future try to make the welcome_msg field in the cat. contain more than 70 letters for ENGLISH
+
+_______
+
+in the delphi application The settings only loads at the start of the program, if updated afterwards it won't be updated until the program restarts
+
+-----------
+31.01.2013
+
+category codes are made to accept numbers only,
+see catUnit.pas
+-----------------
+03.02.2013
+for the Delphi app , in case the DB failed then ( at 1st or in the middle ) then do a timed loop to try again after some time
