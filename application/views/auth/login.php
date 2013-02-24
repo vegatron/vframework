@@ -8,7 +8,7 @@
 
 <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet" media="screen">
 <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
-<title><?php echo PROJECT_TITLE;?></title>
+<title><?php echo APP_TITLE_LONG;?></title>
 
     <style type="text/css">
       body {
@@ -99,7 +99,7 @@ $attributes = array( 'id' => 'login_form', 'name' => 'login_form','class' => 'fo
 
     </div> <!-- /container -->
     <footer class="footer" style="text-align: center;"><p>
-			<?php echo APP_TITLE_LONG; ?>, &copy; <?php echo APP_AUTHOR; ?> 2013, All rights reserved.
+			<?php echo APP_TITLE_LONG; ?>, &copy; <?php echo AUTHOR_NAME; ?> 2013, All rights reserved.
         </p>
     </footer>
 	

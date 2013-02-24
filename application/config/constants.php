@@ -1,10 +1,11 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 
-define('APP_TITLE_SHORT', 'Adbox');
-define('APP_TITLE_LONG', 'Adbox ads portal' );
-define('APP_AUTHOR', 'Seoul' );
-define('ADMIN_EMAIL', 'a.reeh@seoul.ly');
+define('APP_TITLE_SHORT', 'vFramework');
+define('APP_TITLE_LONG', 'vFramework portal' );
+define('AUTHOR_NAME', 'Reeh' );
+define('AUTHOR_WEBSITE', 'http://Reeh.ly' );
+define('AUTHOR_EMAIL', 'A@Reeh.ly');
 
 /*
 |--------------------------------------------------------------------------
