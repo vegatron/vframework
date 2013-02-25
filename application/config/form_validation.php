@@ -4,14 +4,14 @@
 $config = array
 (
 //*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*//
-
+/*
 'sms' => array
 (
 		array(	'field' => 'message', 'label' => 'الرسالة',
 				'rules' => 'trim|required|min_length['.SMS_MIN_LENGTH.']|max_length['.SMS_MAX_LENGTH.']'	),
 
 ),
-
+*/
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 
 'users' => array

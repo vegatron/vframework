@@ -37,7 +37,7 @@
         <ul class="nav" id="main-menu-left">
           <li <?php if ($active_page == 'home') echo 'class="active"'; ?>><a  href="<?php echo base_url(); ?>home" >Home</a></li>
 		  
-          <li class="dropdown" id="preview-menu" <?php if (($active_page == 'users') OR ($active_page == 'add_user') OR ($active_page == 'my_account') ) echo 'class="active"'; ?>>
+          <li class="dropdown <?php if (($active_page == 'users') OR ($active_page == 'add_user') OR ($active_page == 'my_account') ) echo 'class="active"'; ?>" id="users-menu">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li <?php if ($active_page == 'my_account') echo 'class="active"'; ?>><a href="<?php echo base_url(); ?>users/my_account">My Account</a></li>
