@@ -59,7 +59,7 @@ echo form_fieldset('Login data');
   <div class="control-group">
     <label class="control-label" for="password">New password</label>
     <div class="controls">
-      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="password" name="password" placeholder="Password">
     </div>
   </div>
   

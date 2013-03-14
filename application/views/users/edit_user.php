@@ -58,14 +58,14 @@ echo form_fieldset('Login data');
   <div class="control-group">
     <label class="control-label" for="password">New password</label>
     <div class="controls">
-      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="password" name="password" placeholder="Password">
     </div>
   </div>
   
 <?php
 echo form_fieldset_close();
 
-if ( $this->general_model->user_in_group('admin') )
+if ( is_admin() )
 {
 	echo form_fieldset('Permissions');
 	
@@ -113,7 +113,3 @@ echo '&nbsp;';
 	echo form_hidden('mode', 'edit_user');
 
 echo form_close();
-
-
-
-
