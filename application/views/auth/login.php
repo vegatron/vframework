@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow" />
 <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico"/>
 
-<link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" media="screen">
 <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
 <title><?php echo APP_TITLE_LONG;?></title>
 <style type="text/css">
