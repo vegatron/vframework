@@ -12,7 +12,6 @@ class Home extends CI_Controller {
 	function index()
 	{
 
-	
 		$data['htitle'] = APP_TITLE_LONG;
 		$data['active_page'] = 'home';
 		$data['main_content'] = 'home_view';

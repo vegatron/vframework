@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"studen",
+				"student_id  (variable)"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"stu",
+				"student"
+			],
+			[
+				"cu",
+				"current_year_index"
+			],
+			[
+				"passed",
+				"passed_courses"
+			],
+			[
+				"curr",
+				"current_year_index  (variable)"
+			],
+			[
+				"table",
+				"table-striped	BootstrapClass"
+			],
+			[
+				"stud",
+				"student_id  (variable)"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"tab",
+				"table-striped"
+			],
+			[
+				"fail",
+				"failed_courses"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"all",
+				"all_student_courses"
+			],
+			[
+				"final",
+				"final_grade"
+			],
+			[
+				"z-i",
+				"z-index"
+			],
+			[
+				"margin",
+				"margin-top:   (property)"
+			],
+			[
+				"stude",
+				"students"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"cour",
+				"courses  (variable)"
+			],
+			[
+				"grades",
+				"grades_card_year"
+			],
+			[
+				"sr",
+				"sr_courses  (variable)"
+			],
+			[
+				"cou",
+				"course  (variable)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 60.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"his",
+				"Local History: Browse"
+			],
+			[
+				"enal",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena le",
+				"Package Control: Enable Package"
+			],
+			[
+				"clean",
+				"CleanCSS: Clean current file"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disabe",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"local",
+				"Local History: Compare"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"xdebug",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"can",
+				"Can I Switch To Sublime Text 3?"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 522.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/srs2/application/views/settings/index_settings.php",
+		"/C/wamp/www/srs2/application/controllers/settings.php",
+		"/C/wamp/www/srs2/application/views/users/add_user.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf4.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf2.php",
+		"/C/wamp/www/srs2/application/controllers/users.php",
+		"/C/wamp/www/srs2/application/models/students_model.php",
+		"/C/wamp/www/srs2/application/controllers/students.php",
+		"/C/wamp/www/srs2/application/controllers/drucken.php",
+		"/C/wamp/www/srs2/application/views/drucken/results_form.php",
+		"/C/wamp/www/srs2/application/views/students/index.php",
+		"/C/wamp/www/srs2/application/helpers/general_helper.php",
+		"/C/wamp/www/srs2/application/views/drucken/index_drucken.php",
+		"/C/wamp/www/srs2/application/controllers/operations.php",
+		"/C/wamp/www/srs2/application/views/drucken/attendance_form.php",
+		"/C/wamp/www/srs2/application/views/drucken/graduation_form.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf5_both_rounds.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf6.php",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/srs2/index.php",
+		"/C/wamp/www/srs2/favicon.ico",
+		"/C/wamp/www/srs2/css/style.css",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/phpcs.sublime-settings",
+		"/C/wamp/www/srs2/application/controllers/courses.php",
+		"/C/wamp/www/srs2/application/controllers/home.php",
+		"/C/wamp/www/srs2/application/views/courses/courses_home.php",
+		"/C/wamp/www/srs2/application/models/teachers_model.php",
+		"/C/wamp/www/srs2/application/views/courses/add_course.php",
+		"/C/wamp/www/srs2/application/libraries/Ion_auth.php",
+		"/C/wamp/www/srs2/application/libraries/Numbers_to_arabic.php",
+		"/C/wamp/www/srs2/application/libraries/grocery_crud.php",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/Phpcs/phpcs.sublime-settings",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/wamp/www/srs2/application/config/config.php",
+		"/C/wamp/www/srs2/application/config/constants.php",
+		"/C/wamp/www/srs2/application/views/home_view.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf2s_group.php",
+		"/C/wamp/www/srs2/application/views/students/view_student.php",
+		"/C/wamp/www/srs2/application/models/courses_model.php",
+		"/C/wamp/www/srs2/system/core/Model.php",
+		"/C/wamp/www/srs2/system/core/CodeIgniter.php",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/wamp/www/srs2/system/core/Common.php",
+		"/C/wamp/www/srs2/system/core/Loader.php",
+		"/C/wamp/www/srs2/system/core/Controller.php",
+		"/C/wamp/www/srs2/system/core/Benchmark.php",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ahmed/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/srs2/system/database/DB_active_rec.php",
+		"/C/wamp/www/srs2/application/views/drucken/graduates_form.php",
+		"/C/wamp/www/srs2/application/views/students/add_student.php",
+		"/C/wamp/www/srs2/[dev]/application/controllers/students.php",
+		"/C/wamp/www/srs2/[dev]/application/models/students_model.php",
+		"/C/wamp/www/srs2/[dev]/index.php",
+		"/C/wamp/www/srs2/application/views/students/dview_ajax.php",
+		"/C/wamp/www/srs2/application/models/general_model.php",
+		"/C/wamp/www/srs2/application/views/students/dview_student.php",
+		"/C/wamp/www/srs2/application/views/message_view.php",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/srs2/application/views/students/upload.php",
+		"/C/wamp/www/srs2/application/views/ops/index.php",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/srs2/system/helpers/url_helper.php",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_swapping.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_wrapping.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/wamp/www/srs2/js/select2.min.js",
+		"/C/wamp/www/srs2/js/jquery.min.js",
+		"/C/wamp/www/srs2/PhpConsole.php",
+		"/C/wamp/www/srs2/application/views/drucken/pf2s.php",
+		"/C/Users/Reeh/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/wamp/www/srs2/application/helpers/courses_helper.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/shipping/application/controllers/auth.php"
+	],
+	"find":
+	{
+		"height": 84.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stopped",
+			"get_stats(",
+			"message",
+			"=\"<?",
+			"translate_year",
+			"year_index",
+			"++",
+			"year",
+			"طباعة كشف نتائج",
+			"year_index",
+			"pf2s",
+			"xdebu",
+			"passeed",
+			"brack",
+			"add_year_courses",
+			"ضافة",
+			">';\n",
+			"select",
+			"echo",
+			"default",
+			">\n",
+			"years",
+			"view",
+			"		<",
+			"results",
+			"folder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}

@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico"/>
 
 <link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
 <title><?php echo APP_TITLE_LONG;?></title>
 <style type="text/css">

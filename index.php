@@ -1,6 +1,6 @@
 <?php
 
-require_once('PhpConsole.php');
+require_once('/[dev]/PhpConsole.php');
 PhpConsole::start();
 
 /*

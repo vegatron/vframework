@@ -1,0 +1,2 @@
+update
+users controller, set the group_id to Array($group_id) in the register function
