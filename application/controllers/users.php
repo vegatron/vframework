@@ -33,8 +33,8 @@ class Users extends CI_Controller
 			show_error('You dont have permission to access this page.',403);
 		}
 
-		$this->load->library('grocery_CRUD');
-		$crud = new grocery_CRUD();
+        $this->load->library('grocery_CRUD');
+        $crud = new grocery_CRUD();
 
 		$crud->set_table('users');
 		$crud->set_subject('Users');
@@ -55,6 +55,7 @@ class Users extends CI_Controller
 		$crud->unset_add();
 		$crud->unset_edit();
 		$crud->unset_delete();
+		$crud->unset_read();
 		
 		$data = objectToArray ($crud->render() );
 		

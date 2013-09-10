@@ -12,12 +12,12 @@
 <div class='ui-widget-content ui-corner-all datatables'>
 	<h3 class="ui-accordion-header ui-helper-reset ui-state-default form-title">
 		<div class='floatL form-title-left'>
-			<a href="#"><?php echo $this->l('form_edit'); ?> <?php echo $subject?></a>
+			<a href="#"><?php echo $this->l('list_record'); ?> <?php echo $subject?></a>
 		</div>
 		<div class='clear'></div>
 	</h3>
 <div class='form-content form-div'>
-	<?php echo form_open( $update_url, 'method="post" id="crudForm" autocomplete="off" enctype="multipart/form-data"'); ?>
+	<?php echo form_open( $read_url, 'method="post" id="crudForm" autocomplete="off" enctype="multipart/form-data"'); ?>
 		<div>
 		<?php
 			$counter = 0;
@@ -50,18 +50,7 @@
 		</div>
 		<div class='buttons-box'>
 			<div class='form-button-box'>
-				<input  id="form-button-save" type='submit' value='<?php echo $this->l('form_update_changes'); ?>' class='ui-input-button' />
-			</div>
-			<?php 	if(!$this->unset_back_to_list) { ?>
-			<div class='form-button-box'>
-				<input type='button' value='<?php echo $this->l('form_update_and_go_back'); ?>' class='ui-input-button' id="save-and-go-back-button"/>
-			</div>
-			<div class='form-button-box'>
-				<input type='button' value='<?php echo $this->l('form_cancel'); ?>' class='ui-input-button' id="cancel-button" />
-			</div>
-			<?php }?>
-			<div class='form-button-box loading-box'>
-				<div class='small-loading' id='FormLoading'><?php echo $this->l('form_update_loading'); ?></div>
+				<input type='button' value='<?php echo $this->l('form_back_to_list'); ?>' class='ui-input-button back-to-list' id="cancel-button" />
 			</div>
 			<div class='clear'></div>
 		</div>

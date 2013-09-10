@@ -7,6 +7,8 @@
 <meta name="robots" content="noindex, nofollow">
 <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.min.js"></script> 
+
 <?php if( isset($css_files) AND isset($js_files) ): ?>
 <?php foreach($css_files as $file): ?>
     <link type="text/css" rel="stylesheet" href="<?php echo $file; ?>">
@@ -16,7 +18,7 @@
 <?php endforeach; ?>
 <?php endif; ?>
 
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.min.js"></script> 
+
 <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.validity.min.js"></script>
 

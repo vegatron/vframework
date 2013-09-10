@@ -11,7 +11,7 @@
 	<div class="mDiv">
 		<div class="ftitle">
 			<div class='ftitle-left'>
-				<?php echo $this->l('form_edit'); ?> <?php echo $subject?>
+				<?php echo $this->l('list_record'); ?> <?php echo $subject?>
 			</div>
 			<div class='clear'></div>
 		</div>
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 <div id='main-table-box'>
-	<?php echo form_open( $update_url, 'method="post" id="crudForm" autocomplete="off" enctype="multipart/form-data"'); ?>
+	<?php echo form_open( $read_url, 'method="post" id="crudForm" autocomplete="off" enctype="multipart/form-data"'); ?>
 	<div class='form-div'>
 		<?php
 		$counter = 0;
@@ -54,16 +54,8 @@
 	</div>
 	<div class="pDiv">
 		<div class='form-button-box'>
-			<input  id="form-button-save" type='submit' value='<?php echo $this->l('form_update_changes'); ?>' class="btn btn-large"/>
+			<input type='button' value='<?php echo $this->l('form_back_to_list'); ?>' class="btn btn-large back-to-list" id="cancel-button" />
 		</div>
-<?php 	if(!$this->unset_back_to_list) { ?>
-		<div class='form-button-box'>
-			<input type='button' value='<?php echo $this->l('form_update_and_go_back'); ?>' id="save-and-go-back-button" class="btn btn-large"/>
-		</div>
-		<div class='form-button-box'>
-			<input type='button' value='<?php echo $this->l('form_cancel'); ?>' class="btn btn-large" id="cancel-button" />
-		</div>
-<?php 	} ?>
 		<div class='form-button-box'>
 			<div class='small-loading' id='FormLoading'><?php echo $this->l('form_update_loading'); ?></div>
 		</div>

@@ -1,5 +1,6 @@
 <?php
-
+$this->set_css($this->default_theme_path.'/twitter-bootstrap/css/bootstrap.min.css');
+$this->set_css($this->default_theme_path.'/twitter-bootstrap/css/bootstrap-responsive.min.css');
 $this->set_css($this->default_theme_path.'/twitter-bootstrap/css/style.css');
 $this->set_css($this->default_theme_path.'/twitter-bootstrap/css/jquery-ui/flick/jquery-ui-1.9.2.custom.css');
 
@@ -16,19 +17,6 @@ if (!$this->is_IE7()) {
 }
 //	JAVASCRIPTS - TWITTER BOOTSTRAP
 $this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap.min.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-transition.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-alert.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-modal.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-dropdown.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-scrollspy.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-tab.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-tooltip.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-popover.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-button.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-collapse.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-carousel.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-typeahead.js');
-$this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/bootstrap-affix.js');
 $this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/bootstrap/application.js');
 //	JAVASCRIPTS - MODERNIZR
 $this->set_js($this->default_theme_path.'/twitter-bootstrap/js/libs/modernizr/modernizr-2.6.1.custom.js');
@@ -84,10 +72,10 @@ $this->set_js($this->default_theme_path.'/twitter-bootstrap/js/jquery.functions.
 					echo $hidden_field->input;
 				}
 			}?>
-			<input type="submit" value="<?php echo $this->l('form_update_changes'); ?>" class="btn btn-large btn-primary"/>
+			<input type="button" value="<?php echo $this->l('form_update_changes'); ?>" class="btn btn-large btn-primary submit-form"/>
 			<?php 	if(!$this->unset_back_to_list) { ?>
 				<input type="button" value="<?php echo $this->l('form_update_and_go_back'); ?>" id="save-and-go-back-button" class="btn btn-large btn-primary"/>
-				<input type="button" value="<?php echo $this->l('form_cancel'); ?>" onclick="javascript: return goToList()" class="btn btn-large" />
+				<input type="button" value="<?php echo $this->l('form_cancel'); ?>" class="btn btn-large return-to-list" />
 			<?php 	} ?>
 
 			<div class="hide loading" id="ajax-loading"><?php echo $this->l('form_update_loading'); ?></div>
